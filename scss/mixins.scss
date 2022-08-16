@@ -1,0 +1,11 @@
+@mixin dis-item {
+    display: flex;
+    align-items: center;
+}
+
+@mixin sec-title {
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #292933;
+}

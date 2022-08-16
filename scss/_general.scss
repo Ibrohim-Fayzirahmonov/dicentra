@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li,
+a,
+input,
+select,
+textarea,
+option {
+    list-style: none;
+    text-decoration: none;
+    background: none;
+    border: none;
+    outline: none;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1360px;
+    padding: 0 50px;
+}
+
+@media screen and (min-width:1367px) {
+    .container {
+        max-width: 1540px;
+    }
+}
+
+@media screen and (max-width:992px){
+    .container{
+        padding: 0 30px;
+    }
+}
